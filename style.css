@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+main{
+    margin: 20% 0;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    border: 3px solid rgb(116, 113, 113);
+    background-color: rgb(244, 238, 238);
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px black;
+    font-size:xx-large;
+    text-align: center
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+button {
+    padding: 2% 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
